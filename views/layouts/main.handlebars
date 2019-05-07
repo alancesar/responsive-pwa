@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description }}">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" media="all" href="/main.css" />
+    {{!-- <link rel="manifest" href="/manifest.json"> --}}
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="wrapper">
+        <div class="page-header__title">
+          <a href="/">AvenueCode Blog</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        {{{ body }}}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+      </div>
+    </footer>
+
+    {{!-- <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script> --}}
+  </body>
+</html>
