@@ -57,7 +57,7 @@ self.addEventListener('fetch', (event) => {
     // The main page will probably have new changes, such as when a new post is published.
     buildResponse({ event, fallbackStrategy: networkFallingBackToTheCache });
   } else {
-    // The post page will probably have no one changes.
+    // The post page will probably not have any changes
     buildResponse({ event, fallbackStrategy: cacheFallingBackToTheNetwork });
   }
 });
