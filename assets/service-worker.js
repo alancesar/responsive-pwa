@@ -1,7 +1,7 @@
 /* global self, caches, fetch */
 /* eslint no-restricted-globals: 0 */
 
-const CACHE_NAME = 'avenuecodeblog';
+const CACHE_NAME = 'bexsbankblog';
 
 const STATIC_FILES = [
   '/main.css',
